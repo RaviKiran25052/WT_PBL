@@ -1,0 +1,526 @@
+body {
+	margin: 0;
+	padding: 0;
+}
+.f125em {
+	font-size: 1.25em !important;
+}
+.f225em {
+	font-size: 2.25em !important;
+}
+.f275em {
+	font-size: 2.75em !important;
+}
+.barlow {
+	font-family: 'Barlow Semi Condensed', sans-serif !important;
+}
+.text-green {
+	color: #036a49;
+}
+.nav1 {
+	background-color: #00452f;
+}
+.loginBtn:hover {
+	text-decoration: none;
+}
+.yellowBtn {
+	background-color: #ffc107;
+	color: #000 !important;
+	font-weight: bold !important;
+	padding: 0.5rem 1.25rem;
+}
+.yellowBtn:hover {
+	text-decoration: none !important;
+	cursor: pointer;
+}
+.Tt {
+	position: relative;
+	font-family: 'Frutiger LT Std', sans-serif;
+	font-size: 16px;
+	padding: 12px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #002E1F;
+	color: #fff;
+	text-decoration: none;
+}
+.nav2 {
+	background-color: #006747;
+	margin: 0;
+}
+.nav-link {
+	font-weight: 800 !important;
+}
+.nav-link:hover {
+	text-decoration: underline;
+}
+.navdp {
+	width: max-content;
+}
+.navdp li {
+	height: 100px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+.navdp li:hover {
+	background-color: #00452f;
+}
+.navdp li a:hover {
+	text-decoration: none;
+}
+.alerts {
+	color: #00452f;
+	font-weight: 1000;
+	font-family: 'Barlow Semi Condensed';
+}
+.vert .carousel-item-next.carousel-item-left,
+.vert .carousel-item-prev.carousel-item-right {
+   -webkit-transform: translate3d(0, 0, 0);
+   transform: translate3d(0, 0, 0);
+}
+
+.vert .carousel-item-next,
+.vert .active.carousel-item-right {
+   -webkit-transform: translate3d(0, 100%, 0);
+   transform: translate3d(0, 100% 0);
+}
+
+.vert .carousel-item-prev,
+.vert .active.carousel-item-left {
+	-webkit-transform: translate3d(0,-100%, 0);
+   transform: translate3d(0,-100%, 0);
+}
+.fields {
+	height: 70vh;
+	min-height: 425px;
+	max-height: 700px;
+	overflow: hidden;
+}
+
+.fields .carousel-control-prev,
+.fields .carousel-control-next {
+	opacity: 1;
+}
+
+.fields .carousel-inner {
+	height: 100%;
+}
+
+.fields .carousel-item {
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%;
+}
+
+.fields .carousel-indicators li {
+	width: 15px;
+	height: 15px;
+	margin-right: 5px;
+	margin-left: 5px;
+	outline: 1px solid #16513755;
+	background-color: #fffc;
+}
+
+.fields .carousel-indicators li.active {
+	background-color: #fff;
+}
+.content {
+	background-color: #165137a8;
+	margin-right: 0px;
+	padding: 2rem;
+	max-width: 100% !important;
+	width: 560px;
+}
+.content-heading {
+	font-size: 1.5rem !important;
+}
+.section-article {
+	position: relative;
+	padding: 157px 0 150px;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: 50% 50%;
+}
+.section-article .container {
+	max-width: 1050px;
+}
+.section-article .btn {
+	padding-top: 12px;
+	padding-bottom: 8px;
+	font-size: 16px;
+	width: auto;
+}
+.btn-info:hover {
+	background: #fff;
+	color: #000;
+}
+.section-article .box {
+	position: relative;
+	z-index: 5;
+}
+.section-article .box h2 {
+	position: relative;
+	margin-bottom: 25px;
+	color: #fff;
+}
+.section-article .box h2:after {
+	content: '';
+	position: absolute;
+	left: 0px;
+	bottom: -6px;
+	min-width: 46px;
+	height: 2px;
+	background: #FFC72C;
+}
+.section-article .box h3 {
+	margin-bottom: 22px;
+	font-family: 'Frutiger', sans-serif;
+	font-size: 18px;
+	color: #fff;
+	font-weight: 700;
+}
+.section-article .box p {
+	margin-bottom: 40px;
+	color: #fff;
+	line-height: 1.32;
+}
+.alerts .carousel-control-prev-icon, 
+.alerts .carousel-control-next-icon {
+	width: 20px;
+	height: 20px;
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%230005' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+#intro-carousel .carousel-control-prev-icon, 
+#intro-carousel .carousel-control-next-icon {
+	width: 20px;
+	height: 20px;
+	background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%23fff' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+.alerts .carousel-control-prev-icon {
+	transform: rotate(-90deg);
+}
+.alerts .carousel-control-next-icon {
+	transform: rotate(90deg);
+} 
+.carousel-control-next, .carousel-control-prev {
+   width: 60px !important;
+}
+#intro-carousel .carousel-control-next-icon {
+	transform: rotate(180deg);
+}
+.bachelors {
+	background-color: #000000; 
+	text-align: left;
+}
+.foundation {
+	background-color: #f7f7f7; 
+	background-image: url('https://www.yc.edu/v6/assets/images/temp/symphony-optimized.jpg'); 
+	background-repeat: yes;
+}
+.redc {
+	background-color: #000000;
+}
+.stc {
+	background-color: #f8f8f8; 
+	background-image: url('https://www.yc.edu/v6/assets/images/temp/retina_wood-optimized.jpg'); 
+	background-repeat: repeat;
+}
+.yc360 {
+	border-top: 10px solid #eaead2; 
+	border-bottom: 10px solid #eaead2; 
+	background-color: #333; 
+	background-image: url('https://www.yc.edu/v6/assets/images/temp/skulls-optimized.jpg'); 
+	background-repeat: repeat;
+}
+.ycpac {
+	background-color: #333;
+	background-image: url('https://www.yc.edu/v6/assets/images/temp/curls.png');
+	background-repeat: repeat;
+}
+.athletics {
+	background-image: url('https://www.yc.edu/v6/assets/images/temp/athletics-background-optimized.jpg'); 
+	background-size: cover; 
+	max-width: 100%; 
+	height: auto; 
+	background-position: center; 
+	background-repeat: no-repeat;
+}
+/* News */
+.news {
+	padding: 147px 0 166px;
+	background-color: #006847;
+}
+.news .newsHead {
+	margin-bottom: 55px;
+}
+.news .newsHead h2 {
+	position: relative;
+	padding-bottom: 14px;
+	margin-bottom: 16px;
+	color: #fff;
+}
+.news .newsHead h2:after {
+	content: '';
+	position: absolute;
+	left: 0px;
+	bottom: 2px;
+	min-width: 46px;
+	height: 2px;
+	background: #FFC72C;
+}
+.news .newsContent {
+	flex: 0 1 59.8%;
+	max-width: 59.8%;
+	padding-top: 9px;
+}
+.news .newsContent .link-arrow {
+	margin-top: 40px;
+}
+.article-small {
+	display: flex;
+	width: 100%;
+	max-width: none;
+	padding: 0;
+	border: 0;
+	background: none;
+}
+.article-small .artImg {
+	overflow: hidden;
+	position: relative;
+	height: 100%;
+}
+.article-small .artImg:after {
+	content: '';
+	position: absolute;
+	left: -4px;
+	right: 43px;
+	transform: skewX(-30deg);
+	height: 7px;
+	background: #FFC72C;
+	transition: opacity .3s;
+	bottom: 0;
+	opacity: 0;
+}
+.article-small:hover .artImg:after {
+	opacity: 1;
+}
+.news .article-small + .article-small {
+	padding-top: 55px;
+	border-top: 1px solid rgba(255, 255, 255, .48);
+	margin-top: 50px;
+}
+.article-small .artCont {
+	flex: 0 1 60%;
+	max-width: 60%;
+	padding-top: 0;
+	padding-left: 15px;
+	padding-right: 25px;
+}
+.tag {
+	display: inline-block;
+	padding: 7px 8px 1px 9px;
+	background: #FFF;
+	font-family: 'Frutiger LT Std', sans-serif;
+	font-size: 14px;
+	color: #006747;
+	font-weight: 900;
+	text-transform: uppercase;
+}
+.article-small .tag {
+	margin-bottom: 14px;
+}
+.article-small .artCont h4 {
+	font-family: 'Frutiger LT Std', sans-serif;
+	font-size: 17px;
+	color: #fff;
+	line-height: 1.1;
+	font-weight: 300;
+}
+.article-small .artCont h2 {
+	margin-bottom: 22px;
+	font-family: 'Frutiger LT Std', sans-serif;
+	font-size: 14px;
+	color: #fff;
+	font-weight: 900;
+	letter-spacing: 0.02em;
+}
+.more-link {
+	display: inline-block;
+	vertical-align: middle;
+	font-family: 'Frutiger LT Std', sans-serif;
+	font-size: 16px;
+	color: #fff;
+	font-weight: 900;
+	letter-spacing: 0.02em;
+	text-decoration: none;
+}
+.more-link:hover {
+	color: #fff;
+	text-decoration: underline;
+	opacity: .8;
+}
+.link-arrow {
+	display: inline-block;
+	font-family: 'Frutiger LT Std', sans-serif;
+	color: #fff;
+	font-weight: 900;
+	text-decoration: none;
+}
+.link-arrow:hover {
+	color: #fff;
+	text-decoration: underline;
+	opacity: .8;
+}
+.news .rightSide {
+	flex: 0 1 40.2%;
+	max-width: 40.2%;
+	padding-top: 7px;
+	padding-left: 10px;
+	border-left: 1px solid rgba(255, 255, 255, .48);
+}
+.list-events li {
+	position: relative;
+	padding-left: 97px;
+	padding-right: 0px;
+	list-style: none;
+}
+.list-events li + li {
+	margin-top: 36px;
+}
+.event-date {
+	position: absolute;
+	top: -4px;
+	left: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 72px;
+	height: 72px;
+	padding-top: 9px;
+	border-radius: 50%;
+	background: #006747;
+	color: #fff;
+	line-height: 1.19;
+	font-weight: 900;
+	letter-spacing: 0.02em;
+	text-align: center;
+}
+.list-events h5 {
+	margin-bottom: 1px;
+	font-family: 'Frutiger', sans-serif;
+	font-size: 16px;
+	color: #000;
+	line-height: 2.1;
+}
+.list-events h5 a:hover {
+	text-decoration: none;
+}
+.news .rightSide .link-arrow {
+	margin: 17px 0 0 13px;
+}
+.event-date {
+	background: #fff;
+	color: #006747;
+}
+.list-events--white h3, .list-events--white h5, .list-events--white h5 a {
+	color: #fff;
+}
+.list-events--white h3 a:hover, .list-events--white h5 a:hover {
+	color: #fff;
+}
+.list-events--white p {
+	color: #DFDFDF;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.winners {
+	background-image: url('https://www.yc.edu/v6/assets/images/temp/stripes.png'); 
+	background-color: #eee; 
+	padding-top: 250px; 
+	padding-bottom: 250px;
+}
+.footer {
+	position: relative;
+	z-index: 5;
+	margin-top: -5px;
+	padding: 87px 0 90px;
+	background: #006747;
+	color: #fff;
+}
+.footer .row {
+	margin: 0 -8px;
+}
+.flogo {
+	display: inline-block;
+	vertical-align: middle;
+}
+.footer .flogo {
+	margin-bottom: 58px;
+	padding-left: 30px;
+}
+.footer .socials {
+	padding-left: 35px;
+}
+.socials h4 {
+	margin-bottom: 26px;
+	font-family: 'Frutiger LT Std', sans-serif;
+	font-size: 20px;
+	font-weight: 900;
+	letter-spacing: 0.02em;
+	color: white;
+}
+.socials ul {
+	display: flex;
+	list-style: none;
+	padding-left: 0;
+}
+.socials ul li a {
+	text-decoration: none;
+	color: white;
+}
+.socials li:last-child {
+	margin-right: 0;
+}
+.socials a:hover {
+	color: #fff;
+	opacity: .8;
+}
+.socials i {
+	font-size: 24px;
+}
+.footer .flink {
+	padding-top: 7px;
+}
+.footer .flink h5 {
+	margin-bottom: 24px;
+	font-family: 'Frutiger', sans-serif;
+	font-size: 20px;
+	font-weight: 700;
+	color: white;
+}
+.footer .flink ul {
+	list-style: none;
+	padding-left: 0;
+}
+.footer .flink li + li {
+	margin-top: 20px;
+}
+.footer .flink a {
+	text-decoration: none;
+	color: inherit;
+}
+.footer .flink a:hover {
+	color: #fff;
+	opacity: .8;
+}
+.back{
+	float: right;
+	color: #fff;
+	text-decoration: none;
+	padding-right: 50px;
+	font-size: large;
+}
